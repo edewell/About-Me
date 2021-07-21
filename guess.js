@@ -1,26 +1,27 @@
-alert("Welcome to my page");
+"use strict"; 
 
-let Askname = prompt("Can I get your name?"); 
+ alert("Welcome"); 
 
-    console.log(askName); 
+ let askName = prompt("Can I get your name?");  
 
-    // give user a hint 
+ console.log(askName);  
 
- 
- 
- 
+ alert("Hey" + askName) 
 
-let guessinggame = prompt("Are you ready to learn more about me?"); 
+  // give user a hint  
 
-{ 
+let response = prompt("Are you ready to learn more about me?") 
 
-    let response = prompt("Are you ready to learn more about me?").toLowerCase 
-
-    if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes'); 
+ if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') 
 
     { 
+     alert("awesome") 
+    }  
 
-        guessinggame = false; 
+ let askUser = prompt("Am I 19?");  
 
-    } 
+{ 
+    let response = prompt("Am I 19?") 
+
+    if (response.toLowerCase() === 'n' || response.toLowerCase() === 'no');  
 } 
