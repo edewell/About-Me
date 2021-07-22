@@ -26,10 +26,16 @@ let response = prompt("Are you ready to learn more about me?")
     if (response.toLowerCase() === 'n' || response.toLowerCase() === 'no');  
 } 
 
-let response = prompt("Are you here to learn about me?") 
+let youSure = prompt("Are you sure?")
+{
+    let response = prompt("Are you sure?")
 
- if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') 
+    if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes');
+}
 
-    { 
-     alert("kee going") 
-    }  
+let car = prompt("Do I have a Nissan?")
+{
+    let response = prompt("Do I have a Nissan?")
+
+    if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes');
+}
