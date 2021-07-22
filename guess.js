@@ -25,3 +25,11 @@ let response = prompt("Are you ready to learn more about me?")
 
     if (response.toLowerCase() === 'n' || response.toLowerCase() === 'no');  
 } 
+
+let response = prompt("Are you here to learn about me?") 
+
+ if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') 
+
+    { 
+     alert("kee going") 
+    }  
